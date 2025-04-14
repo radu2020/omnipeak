@@ -29,7 +29,7 @@ This project retrieves contacts from HubSpot, filters by industry, and sends aut
     (Menu -> Import)
     ```
    
-6. Configure SMTP in Send Email node
+6. Configure SMTP in `Send Email` node
 
 7. Create `email_log.jsonl` file and configure file path in the `Read Log File`, `Append to Log File` nodes.
 
