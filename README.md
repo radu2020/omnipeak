@@ -29,7 +29,7 @@ This project retrieves contacts from HubSpot, filters by industry, and sends aut
     (Menu -> Import)
     ```
    
-6. Configure SMTP in `Send Email` node
+6. Configure SMTP in `Send Email` node.
 
 7. Create `email_log.jsonl` file and configure file path in the `Read Log File`, `Append to Log File` nodes.
 
@@ -38,11 +38,11 @@ This project retrieves contacts from HubSpot, filters by industry, and sends aut
 
 
 ## 📦 Flow Groups
-- **Read Logs:** Reads locally saved Log File
-- **Fetch Data:** Fetches Contacts from HubSpot API
-- **Extract Data:** Extracts Contacts and Filters them by industry (technology)
+- **Read Logs:** Reads locally saved Log File.
+- **Fetch Data:** Fetches Contacts from HubSpot API.
+- **Extract Data:** Extracts Contacts and Filters them by industry (technology).
 - **Email Check:** For each contact, check if it was  notified in the past 24h, and if not, send email.
-- **Send Email:** Composes Email, Sends Email and updates Log File
+- **Send Email:** Composes Email, Sends Email and updates Log File.
 
 ## ✅ Testing
 - Use the Inject node `Start Process` to trigger manually or run on schedule.
