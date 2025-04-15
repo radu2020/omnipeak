@@ -47,8 +47,3 @@ This project retrieves contacts from HubSpot, filters by industry, and sends aut
 ## ✅ Testing
 - Use the Inject node `Start Process` to trigger manually or run on schedule.
 - Check Debug panel or log file for errors.
-
-## 📩 Email
-
-![Project Screenshot](images/email.jpg)
-
